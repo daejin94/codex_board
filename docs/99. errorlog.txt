@@ -1,0 +1,87 @@
+$ npm run dev
+
+> frontend@0.0.0 dev
+> vite
+
+
+  VITE v5.4.21  ready in 749 ms
+
+  ➜  Local:   http://localhost:5173/
+  ➜  Network: use --host to expose
+  ➜  press h + enter to show help
+오후 4:50:02 [vite] Internal server error: C:\Workspaces\91. Code Practice\Private\codex_board\app\frontend\src\App.jsx: Expected corresponding JSX closing tag for <h2>. (211:10)
+
+  209 |             <h2>???뜚 揶쎛??/h2>
+  210 |             <p>疫꿸퀡???類ｋ궖????낆젾??雅뚯눘苑??</p>
+> 211 |           </header>
+      |           ^
+  212 |
+  213 |           <form onSubmit={handleSubmit} className="form">
+  214 |             <label>
+  Plugin: vite:react-babel
+  File: C:/Workspaces/91. Code Practice/Private/codex_board/app/frontend/src/App.jsx:211:10
+  209|              <h2>???뜚 揶쎛??/h2>
+  210|              <p>疫꿸퀡???類ｋ궖????낆젾??雅뚯눘苑??</p>
+  211|            </header>
+     |            ^
+  212|  
+  213|            <form onSubmit={handleSubmit} className="form">
+      at constructor (C:\Workspaces\91. Code Practice\Private\codex_board\app\frontend\node_modules\@babel\parser\lib\index.js:365:19)
+      at JSXParserMixin.raise (C:\Workspaces\91. Code Practice\Private\codex_board\app\frontend\node_modules\@babel\parser\lib\index.js:6599:19)
+      at JSXParserMixin.jsxParseElementAt (C:\Workspaces\91. Code Practice\Private\codex_board\app\frontend\node_modules\@babel\parser\lib\index.js:4727:16)
+      at JSXParserMixin.jsxParseElementAt (C:\Workspaces\91. Code Practice\Private\codex_board\app\frontend\node_modules\@babel\parser\lib\index.js:4698:32)
+      at JSXParserMixin.jsxParseElementAt (C:\Workspaces\91. Code Practice\Private\codex_board\app\frontend\node_modules\@babel\parser\lib\index.js:4698:32)
+      at JSXParserMixin.jsxParseElementAt (C:\Workspaces\91. Code Practice\Private\codex_board\app\frontend\node_modules\@babel\parser\lib\index.js:4698:32)
+      at JSXParserMixin.jsxParseElementAt (C:\Workspaces\91. Code Practice\Private\codex_board\app\frontend\node_modules\@babel\parser\lib\index.js:4698:32)
+      at JSXParserMixin.jsxParseElement (C:\Workspaces\91. Code Practice\Private\codex_board\app\frontend\node_modules\@babel\parser\lib\index.js:4749:17)
+      at JSXParserMixin.parseExprAtom (C:\Workspaces\91. Code Practice\Private\codex_board\app\frontend\node_modules\@babel\parser\lib\index.js:4759:19)
+      at JSXParserMixin.parseExprSubscripts (C:\Workspaces\91. Code Practice\Private\codex_board\app\frontend\node_modules\@babel\parser\lib\index.js:11081:23)
+      at JSXParserMixin.parseUpdate (C:\Workspaces\91. Code Practice\Private\codex_board\app\frontend\node_modules\@babel\parser\lib\index.js:11066:21)
+      at JSXParserMixin.parseMaybeUnary (C:\Workspaces\91. Code Practice\Private\codex_board\app\frontend\node_modules\@babel\parser\lib\index.js:11046:23)
+      at JSXParserMixin.parseMaybeUnaryOrPrivate (C:\Workspaces\91. Code Practice\Private\codex_board\app\frontend\node_modules\@babel\parser\lib\index.js:10899:61)
+      at JSXParserMixin.parseExprOps (C:\Workspaces\91. Code Practice\Private\codex_board\app\frontend\node_modules\@babel\parser\lib\index.js:10904:23)
+      at JSXParserMixin.parseMaybeConditional (C:\Workspaces\91. Code Practice\Private\codex_board\app\frontend\node_modules\@babel\parser\lib\index.js:10881:23)
+      at JSXParserMixin.parseMaybeAssign (C:\Workspaces\91. Code Practice\Private\codex_board\app\frontend\node_modules\@babel\parser\lib\index.js:10831:21)
+      at C:\Workspaces\91. Code Practice\Private\codex_board\app\frontend\node_modules\@babel\parser\lib\index.js:10800:39
+      at JSXParserMixin.allowInAnd (C:\Workspaces\91. Code Practice\Private\codex_board\app\frontend\node_modules\@babel\parser\lib\index.js:12426:12)
+      at JSXParserMixin.parseMaybeAssignAllowIn (C:\Workspaces\91. Code Practice\Private\codex_board\app\frontend\node_modules\@babel\parser\lib\index.js:10800:17)
+      at JSXParserMixin.parseMaybeAssignAllowInOrVoidPattern (C:\Workspaces\91. Code Practice\Private\codex_board\app\frontend\node_modules\@babel\parser\lib\index.js:12493:17)
+      at JSXParserMixin.parseParenAndDistinguishExpression (C:\Workspaces\91. Code Practice\Private\codex_board\app\frontend\node_modules\@babel\parser\lib\index.js:11675:28) 
+      at JSXParserMixin.parseExprAtom (C:\Workspaces\91. Code Practice\Private\codex_board\app\frontend\node_modules\@babel\parser\lib\index.js:11331:23)
+      at JSXParserMixin.parseExprAtom (C:\Workspaces\91. Code Practice\Private\codex_board\app\frontend\node_modules\@babel\parser\lib\index.js:4764:20)
+      at JSXParserMixin.parseExprSubscripts (C:\Workspaces\91. Code Practice\Private\codex_board\app\frontend\node_modules\@babel\parser\lib\index.js:11081:23)
+      at JSXParserMixin.parseUpdate (C:\Workspaces\91. Code Practice\Private\codex_board\app\frontend\node_modules\@babel\parser\lib\index.js:11066:21)
+      at JSXParserMixin.parseMaybeUnary (C:\Workspaces\91. Code Practice\Private\codex_board\app\frontend\node_modules\@babel\parser\lib\index.js:11046:23)
+      at JSXParserMixin.parseMaybeUnaryOrPrivate (C:\Workspaces\91. Code Practice\Private\codex_board\app\frontend\node_modules\@babel\parser\lib\index.js:10899:61)
+      at JSXParserMixin.parseExprOps (C:\Workspaces\91. Code Practice\Private\codex_board\app\frontend\node_modules\@babel\parser\lib\index.js:10904:23)
+      at JSXParserMixin.parseMaybeConditional (C:\Workspaces\91. Code Practice\Private\codex_board\app\frontend\node_modules\@babel\parser\lib\index.js:10881:23)
+      at JSXParserMixin.parseMaybeAssign (C:\Workspaces\91. Code Practice\Private\codex_board\app\frontend\node_modules\@babel\parser\lib\index.js:10831:21)
+      at JSXParserMixin.parseExpressionBase (C:\Workspaces\91. Code Practice\Private\codex_board\app\frontend\node_modules\@babel\parser\lib\index.js:10784:23)
+      at C:\Workspaces\91. Code Practice\Private\codex_board\app\frontend\node_modules\@babel\parser\lib\index.js:10780:39
+      at JSXParserMixin.allowInAnd (C:\Workspaces\91. Code Practice\Private\codex_board\app\frontend\node_modules\@babel\parser\lib\index.js:12421:16)
+      at JSXParserMixin.parseExpression (C:\Workspaces\91. Code Practice\Private\codex_board\app\frontend\node_modules\@babel\parser\lib\index.js:10780:17)
+      at JSXParserMixin.parseReturnStatement (C:\Workspaces\91. Code Practice\Private\codex_board\app\frontend\node_modules\@babel\parser\lib\index.js:13142:28)
+      at JSXParserMixin.parseStatementContent (C:\Workspaces\91. Code Practice\Private\codex_board\app\frontend\node_modules\@babel\parser\lib\index.js:12798:21)
+      at JSXParserMixin.parseStatementLike (C:\Workspaces\91. Code Practice\Private\codex_board\app\frontend\node_modules\@babel\parser\lib\index.js:12767:17)
+      at JSXParserMixin.parseStatementListItem (C:\Workspaces\91. Code Practice\Private\codex_board\app\frontend\node_modules\@babel\parser\lib\index.js:12747:17)
+      at JSXParserMixin.parseBlockOrModuleBlockBody (C:\Workspaces\91. Code Practice\Private\codex_board\app\frontend\node_modules\@babel\parser\lib\index.js:13316:61)        
+      at JSXParserMixin.parseBlockBody (C:\Workspaces\91. Code Practice\Private\codex_board\app\frontend\node_modules\@babel\parser\lib\index.js:13309:10)
+      at JSXParserMixin.parseBlock (C:\Workspaces\91. Code Practice\Private\codex_board\app\frontend\node_modules\@babel\parser\lib\index.js:13297:10)
+      at JSXParserMixin.parseFunctionBody (C:\Workspaces\91. Code Practice\Private\codex_board\app\frontend\node_modules\@babel\parser\lib\index.js:12100:24)
+      at JSXParserMixin.parseFunctionBodyAndFinish (C:\Workspaces\91. Code Practice\Private\codex_board\app\frontend\node_modules\@babel\parser\lib\index.js:12086:10)
+      at C:\Workspaces\91. Code Practice\Private\codex_board\app\frontend\node_modules\@babel\parser\lib\index.js:13445:12
+      at JSXParserMixin.withSmartMixTopicForbiddingContext (C:\Workspaces\91. Code Practice\Private\codex_board\app\frontend\node_modules\@babel\parser\lib\index.js:12403:14) 
+      at JSXParserMixin.parseFunction (C:\Workspaces\91. Code Practice\Private\codex_board\app\frontend\node_modules\@babel\parser\lib\index.js:13444:10)
+      at JSXParserMixin.parseFunctionStatement (C:\Workspaces\91. Code Practice\Private\codex_board\app\frontend\node_modules\@babel\parser\lib\index.js:13125:17)
+      at JSXParserMixin.parseStatementContent (C:\Workspaces\91. Code Practice\Private\codex_board\app\frontend\node_modules\@babel\parser\lib\index.js:12791:21)
+      at JSXParserMixin.parseStatementLike (C:\Workspaces\91. Code Practice\Private\codex_board\app\frontend\node_modules\@babel\parser\lib\index.js:12767:17)
+      at JSXParserMixin.parseModuleItem (C:\Workspaces\91. Code Practice\Private\codex_board\app\frontend\node_modules\@babel\parser\lib\index.js:12744:17)
+오후 4:50:02 [vite] Pre-transform error: C:\Workspaces\91. Code Practice\Private\codex_board\app\frontend\src\App.jsx: Expected corresponding JSX closing tag for <h2>. (211:10)
+
+  209 |             <h2>???뜚 揶쎛??/h2>
+  210 |             <p>疫꿸퀡???類ｋ궖????낆젾??雅뚯눘苑??</p>
+> 211 |           </header>
+      |           ^
+  212 |
+  213 |           <form onSubmit={handleSubmit} className="form">
+  214 |             <label>

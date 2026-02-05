@@ -1,0 +1,32 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/board
+    username: board
+    password: board
+  jpa:
+    hibernate:
+      ddl-auto: create-drop
+    properties:
+      hibernate:
+        format_sql: true
+        globally_quoted_identifiers: true
+  data:
+    redis:
+      host: localhost
+      port: 6379
+  sql:
+    init:
+      mode: never
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: health,info
+
+app:
+  jwt:
+    issuer: codex-board
+    secret: change-this-secret-to-a-long-random-string-at-least-32-bytes
+    access-token-minutes: 15
+    refresh-token-days: 7
