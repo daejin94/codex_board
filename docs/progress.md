@@ -42,6 +42,11 @@
 - README 실행 방법 풀 가이드 추가
 - README 커밋 컨벤션 인코딩 복구
 - 문서 동기화
+- 프로젝트 디렉터리 구조 문서화(structure.md) 작성
+- structure.md 디렉터리별 상세 책임 보강
+- structure.md 프로젝트 구조 예시 갱신
+- structure.md 주요 디렉터리/파일 설명 정리
+- structure.md 주요 디렉터리/파일 설명 중복 정리
 
 ## Todo
 - 없음
